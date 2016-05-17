@@ -19,6 +19,8 @@ namespace GTSoft.Win.Morse
                 string decode = decoder.Translate(morse);
                 Console.WriteLine(decode);
                 Console.ReadLine();
+
+                // Real time decoding ...
                 //ConsoleKeyInfo keyInfo = Console.ReadKey(true);
                 //if (keyInfo.KeyChar == 's')
                 //{
